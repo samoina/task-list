@@ -11,34 +11,21 @@
   <title>To -Do List</title>
 </head>
 <body>
-  <div class="container">
+  <div class="wrapper">
     <header>
-      <div class="clear">
-        <i class="fas fa-redo"></i>
-      </div>
-      <div id="date">
-
-      </div>
+      <h2>To Do List</h2>
+      <input type="text" name="" id="myInput" placeholder=""Title...>
+      <span onclick="newElement" class=""addBtn>Add</span>
     </header>
-
+  
     <main>
-      <div class="content">
-        <ul id="list">
-          <li class="item">
-            <i class="far fa-circle"></i>
-            <p class="text">Drink kahawa</p>
-            <i class="far fa-trash-alt"></i>
-            
-          </li>
-
-        </ul>
-      </div>
+      <ul id="myUL">
+        <li>Create a to-do list app <i class="far fa-trash-alt"></i></li>
+        <li class="checked">Make kahawa <i class="far fa-trash-alt"></i></li>
+        <li>Build app using MongoDB <i class="far fa-trash-alt"></i></li>
+        <li>Visit Australia and see the kangaroos <i class="far fa-trash-alt"></i></li>
+      </ul>
     </main>
-
-    <div class="add-item">
-      <i class="far fa-plus-circle"></i>
-      <input type="text" name="" id="input" placeholder="Add a new task">
-    </div>
   </div>
   
 <script src="/scripts/jquery.min.js_3.5.1/cdnjs/jquery.min.js"></script>
